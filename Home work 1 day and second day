@@ -1,0 +1,65 @@
+import UIKit
+/
+/ Day-1
+
+let a = 1.0
+let b = -5.0
+let c = -10.0
+var x1 = 0.0
+var x2 = 0.0
+var discriminant = b * b -  4 * a * c
+print(discriminant)
+x1 = -b + sqrt(discriminant) / 2 * a
+x2 = -b - sqrt(discriminant) / 2 * a
+print(x1)
+print(x2)
+
+/////Mark-2
+
+var Chatet1 = 4.0
+var Chatet2 = 6.0
+var Hypo = sqrt(Chatet1*Chatet1 + Chatet2*Chatet2)
+let Perim = Chatet2 + Chatet1  + Hypo
+let area = Chatet2 * Chatet1 / 2
+
+///Mark-3:
+
+let Annualpercent = 15
+let summ = 1_000_
+let amountYears = 5
+let daysOf5 = 365 * 5
+let AmountOfCounts = 12 * amountYears
+let profit = summ * amountYears * amountYears
+let summ5Years = profit * summ
+
+//Day-2
+
+//Task 1,2
+
+func numbers (b: Int, a:Int) -> Bool {
+ return b % a == 0
+}
+    numbers(b: 4, a: 2)
+
+
+// Task-3
+
+var array = [Int]()
+for i in 0...99 {
+    array.append(i)
+    
+}
+print(array)
+
+//Task-4
+
+var ArrayOfNumber = [Int]()
+for i in 1...100 {
+    if i % 2 == 0 || i % 3 != 0{
+        remove
+    } else  {
+       print(i)
+     
+    }
+    }
+ 
